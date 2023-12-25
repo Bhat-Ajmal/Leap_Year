@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leap Year</title>
+    <style>
+        h1 {
+            background-color: greenyellow;
+            margin: 1rem;
+            padding: 1rem;
+            display: block;
+            color: black;
+            text-align: center;
+        }
+        textarea {
+            border: 1px solid black;
+            height: 20vh;
+            width: 40vh;
+            padding: 1rem;
+            display: block;
+            margin: 1rem;
+        }
+        #checkout {
+            margin-top: 2%;
+            display: block;
+            margin: 1rem;
+            background: red;
+            font-size: large;
+            font-weight: bold;
+        }
+        #output {
+            border: 1px solid black;
+            height: 20vh;
+            width: 40vh;
+            padding: 1rem;
+            display: block;
+            margin: 1rem;
+            background: white;
+        }
+        p {
+            background: greenyellow;
+            display: inline;
+            margin: 1rem;
+            padding: 0.5rem;
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: burlywood;">
+    <h1>Find Leap years</h1>
+    <textarea id="input" placeholder="enter the year"></textarea>
+    <button id="checkout">check</button>
+    <p >results 👇</p>
+    <div id="output"></div>
+
+
+
+    <script src="script.js"></script>
     
 </body>
 </html>
